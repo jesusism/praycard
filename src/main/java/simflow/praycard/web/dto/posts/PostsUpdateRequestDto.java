@@ -1,4 +1,4 @@
-package simflow.praycard.web.dto;
+package simflow.praycard.web.dto.posts;
 
 import lombok.Builder;
 import lombok.Getter;

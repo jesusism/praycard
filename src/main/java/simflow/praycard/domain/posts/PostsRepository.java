@@ -1,4 +1,4 @@
-package simflow.praycard.domain;
+package simflow.praycard.domain.posts;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;

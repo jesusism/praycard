@@ -3,9 +3,9 @@ package simflow.praycard.web.api;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 import simflow.praycard.service.PostsService;
-import simflow.praycard.web.dto.PostsResponseDto;
-import simflow.praycard.web.dto.PostsSaveRequestDto;
-import simflow.praycard.web.dto.PostsUpdateRequestDto;
+import simflow.praycard.web.dto.posts.PostsResponseDto;
+import simflow.praycard.web.dto.posts.PostsSaveRequestDto;
+import simflow.praycard.web.dto.posts.PostsUpdateRequestDto;
 
 @RequiredArgsConstructor
 @RestController

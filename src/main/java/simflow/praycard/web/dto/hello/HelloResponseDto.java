@@ -1,4 +1,4 @@
-package simflow.praycard.web.dto;
+package simflow.praycard.web.dto.hello;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

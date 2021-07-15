@@ -1,8 +1,9 @@
-package simflow.praycard.domain;
+package simflow.praycard.domain.posts;
 
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import simflow.praycard.domain.BaseTimeEntity;
 
 import javax.persistence.Column;
 import javax.persistence.GeneratedValue;

@@ -1,7 +1,7 @@
-package simflow.praycard.web.dto;
+package simflow.praycard.web.dto.posts;
 
 import lombok.Getter;
-import simflow.praycard.domain.Posts;
+import simflow.praycard.domain.posts.Posts;
 
 import java.time.LocalDateTime;
 

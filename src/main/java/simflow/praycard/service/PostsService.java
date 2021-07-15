@@ -3,12 +3,12 @@ package simflow.praycard.service;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import simflow.praycard.domain.Posts;
-import simflow.praycard.domain.PostsRepository;
-import simflow.praycard.web.dto.PostsListResponseDto;
-import simflow.praycard.web.dto.PostsResponseDto;
-import simflow.praycard.web.dto.PostsSaveRequestDto;
-import simflow.praycard.web.dto.PostsUpdateRequestDto;
+import simflow.praycard.domain.posts.Posts;
+import simflow.praycard.domain.posts.PostsRepository;
+import simflow.praycard.web.dto.posts.PostsListResponseDto;
+import simflow.praycard.web.dto.posts.PostsResponseDto;
+import simflow.praycard.web.dto.posts.PostsSaveRequestDto;
+import simflow.praycard.web.dto.posts.PostsUpdateRequestDto;
 
 import java.util.List;
 import java.util.stream.Collectors;

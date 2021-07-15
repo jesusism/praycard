@@ -1,9 +1,9 @@
-package simflow.praycard.web.dto;
+package simflow.praycard.web.dto.posts;
 
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import simflow.praycard.domain.Posts;
+import simflow.praycard.domain.posts.Posts;
 
 @Getter
 @NoArgsConstructor
@@ -11,6 +11,7 @@ public class PostsSaveRequestDto {
     private String title;
     private String content;
     private String author;
+
     @Builder
     public PostsSaveRequestDto(String title, String content,
                                String author) {
